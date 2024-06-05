@@ -81,3 +81,15 @@ python data_collector.py
 ```
 
 The script will fetch historical data for each symbol listed in `snp500.json` and save it as CSV files in the 'data' directory.
+
+## UI
+
+We will use JavaScript with React Native with Expo to build our UI (Learn more at [expo tutorial](https://docs.expo.dev/tutorial/create-your-first-app/))
+
+We will create React Native project with command:
+
+```bash
+npx create-expo-app ui # create project name `ui`
+```
+
+In this project, the React Native is created for you. Please read the `ui/README.md` for more information.
